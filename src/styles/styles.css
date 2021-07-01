@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../assets/Quicksand-Bold.ttf');
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
+.bg-orange {
+    background-color: #dfbb78;
+}
+
+.bg-clear-blue {
+    background-color: #4caeed;
+}
+
+.bg-gray {
+    background-color: #f9d9a9;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#inputDescription {
+    resize: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.active {
+    background-color: #f3b36f !important;
+    color: #081e76 !important;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #0d6efd !important;
+}
+
+.bg-success {
+    background-color: #D2F5D0 !important;
+}
+
+#login {
+    min-height: 100vh;
+    background: rgb(205, 205, 205);
+    background: -moz-radial-gradient(circle, rgba(205, 205, 205, 1) 0%, rgba(223, 187, 120, 1) 35%, rgba(79, 63, 33, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(205, 205, 205, 1) 0%, rgba(223, 187, 120, 1) 35%, rgba(79, 63, 33, 1) 100%);
+    background: radial-gradient(circle, rgba(205, 205, 205, 1) 0%, rgba(223, 187, 120, 1) 35%, rgba(79, 63, 33, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdcdcd", endColorstr="#4f3f21", GradientType=1);
+}
+
+.logo {
+    height: 5rem;
+}
+
+.links:hover {
+    color: #F1F1F1;
+}
+
+.ReactModalPortal>div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.modal-background {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: white;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    display: inline;
+    max-height: 620px;
+    max-width: 500px;
+    outline: none;
+    padding: 10px;
+}
